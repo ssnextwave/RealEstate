@@ -117,7 +117,7 @@ function PropertyDetail() {
           <button onClick={() => setIdx((i) => (i + 1) % property.images.length)} aria-label="Next" className="absolute right-3 top-1/2 -translate-y-1/2 rounded-full bg-background/90 p-2 hover:scale-110 transition"><ChevronRight className="h-4 w-4" /></button>
         </div>
         <div className="hidden grid-cols-2 gap-3 lg:grid">
-          {property.images.slice(0, 4).map((src, i) => (
+          {property.images.slice(0, 4).map((src: string, i: number) => (
             <button key={i} onClick={() => setIdx(i)} className={`aspect-[4/3] overflow-hidden rounded-xl bg-muted transition ${idx === i ? "ring-2 ring-brand" : ""}`}>
               <img src={img(src)} alt="" loading="lazy" className="h-full w-full object-cover" />
             </button>
@@ -161,7 +161,7 @@ function PropertyDetail() {
             </TabsContent>
             <TabsContent value="amenities" className="mt-6">
               <ul className="grid gap-3 sm:grid-cols-2">
-                {property.amenities.map((a) => (
+                {property.amenities.map((a: string) => (
                   <li key={a} className="flex items-center gap-2 rounded-lg border border-border bg-card px-4 py-3 text-sm">
                     <Check className="h-4 w-4 text-brand" /> {a}
                   </li>

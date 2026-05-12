@@ -1,0 +1,38 @@
+[
+  {
+    "id": "b-1",
+    "slug": "buying-your-first-luxury-home",
+    "title": { "en": "A Quiet Guide to Buying Your First Luxury Home" },
+    "excerpt": { "en": "Eight principles we share with every first-time buyer crossing the eight-figure threshold." },
+    "content": { "en": "The shift from buying a home to acquiring a residence is less about budget and more about intention. Begin with how you want to live, not what you want to own. Visit at different times of day. Bring an architect to the second showing. Read the HOA minutes — they tell you who your neighbors are. Negotiate the inspection period, not just the price. Title insurance is non-negotiable. Plan for carry costs of 1.5–2.5% per year. And finally, buy the location twice: once for the view, and once for the resale." },
+    "cover": "interior-1",
+    "category": "Guides",
+    "author": "Eleanor Vance",
+    "date": "2025-10-22",
+    "readMinutes": 6
+  },
+  {
+    "id": "b-2",
+    "slug": "five-coastal-markets-watching",
+    "title": { "en": "Five Coastal Markets We're Watching in 2026" },
+    "excerpt": { "en": "From the Algarve to the Sea of Cortez, here is where our advisors see the best long-horizon value." },
+    "content": { "en": "We track twenty-two coastal markets across four continents. Five stand out heading into 2026: the Algarve, Sayulita, Hvar, Tofino and the North Shore of Maui. Each combines limited inventory with infrastructure improvements that have lagged demand. Expect mid-single-digit appreciation, low single-digit rental yields, and meaningful currency upside for USD-denominated buyers in three of the five." },
+    "cover": "property-1",
+    "category": "Markets",
+    "author": "Marcus Hale",
+    "date": "2025-11-04",
+    "readMinutes": 8
+  },
+  {
+    "id": "b-3",
+    "slug": "designing-with-light",
+    "title": { "en": "Designing With Light: A Conversation" },
+    "excerpt": { "en": "We sit down with three architects on how natural light is reshaping residential interiors." },
+    "content": { "en": "Light has always been the most expensive material. Today's leading residential architects are specifying glazing, orientation and overhangs with the precision once reserved for museums. The result is a generation of homes that feel calm, generous and deeply contemporary — without resorting to fashion." },
+    "cover": "interior-2",
+    "category": "Design",
+    "author": "Priya Anand",
+    "date": "2025-09-18",
+    "readMinutes": 5
+  }
+]

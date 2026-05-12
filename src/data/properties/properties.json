@@ -1,0 +1,174 @@
+[
+  {
+    "id": "p-001",
+    "slug": "azure-cliff-villa-malibu",
+    "title": { "en": "Azure Cliff Villa" },
+    "description": {
+      "en": "Perched above the Pacific, this six-bedroom estate frames the horizon through 30 feet of glass. A 60-foot infinity pool, sunken lounge and private path to the cove define a new standard of coastal living."
+    },
+    "price": 12500000,
+    "currency": "USD",
+    "status": "for-sale",
+    "type": "villa",
+    "bedrooms": 6,
+    "bathrooms": 7,
+    "area": 8400,
+    "yearBuilt": 2022,
+    "location": { "city": "Malibu", "region": "California", "country": "USA", "address": "27 Pacific Ridge", "lat": 34.0259, "lng": -118.7798 },
+    "images": ["hero-villa", "property-1", "interior-1", "interior-2", "interior-3"],
+    "amenities": ["Infinity Pool", "Private Beach Access", "Wine Cellar", "Home Theater", "Smart Home", "EV Charging", "Gym", "Spa"],
+    "featured": true,
+    "agentId": "a-001",
+    "createdAt": "2025-09-12"
+  },
+  {
+    "id": "p-002",
+    "slug": "skyline-penthouse-manhattan",
+    "title": { "en": "Skyline Penthouse" },
+    "description": {
+      "en": "A duplex penthouse atop a landmark Tribeca tower, with double-height living spaces and a wrap-around terrace overlooking the Hudson and downtown skyline."
+    },
+    "price": 8900000,
+    "currency": "USD",
+    "status": "for-sale",
+    "type": "penthouse",
+    "bedrooms": 4,
+    "bathrooms": 5,
+    "area": 5200,
+    "yearBuilt": 2021,
+    "location": { "city": "New York", "region": "NY", "country": "USA", "address": "12 Tribeca Tower", "lat": 40.7195, "lng": -74.009 },
+    "images": ["property-2", "interior-2", "interior-1", "interior-3"],
+    "amenities": ["Concierge", "Private Elevator", "Terrace", "Gym", "Wine Cellar"],
+    "featured": true,
+    "agentId": "a-002",
+    "createdAt": "2025-10-04"
+  },
+  {
+    "id": "p-003",
+    "slug": "willowbrook-family-estate",
+    "title": { "en": "Willowbrook Family Estate" },
+    "description": {
+      "en": "A timeless stone-clad family home on a quiet half-acre lot, with mature gardens, a chef's kitchen and an entertainer's lower level."
+    },
+    "price": 2350000,
+    "currency": "USD",
+    "status": "for-sale",
+    "type": "house",
+    "bedrooms": 5,
+    "bathrooms": 4,
+    "area": 4100,
+    "yearBuilt": 2018,
+    "location": { "city": "Greenwich", "region": "CT", "country": "USA", "address": "8 Willowbrook Ln", "lat": 41.0262, "lng": -73.6282 },
+    "images": ["property-3", "interior-1", "interior-2"],
+    "amenities": ["Garden", "Two-car Garage", "Office", "Fireplace"],
+    "featured": true,
+    "agentId": "a-001",
+    "createdAt": "2025-08-22"
+  },
+  {
+    "id": "p-004",
+    "slug": "brownstone-row-brooklyn",
+    "title": { "en": "Brownstone Row Townhouse" },
+    "description": {
+      "en": "Restored brick townhouse on a tree-lined Brooklyn street, balancing original detail with a top-floor primary suite addition."
+    },
+    "price": 3450000,
+    "currency": "USD",
+    "status": "for-sale",
+    "type": "townhouse",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "area": 3600,
+    "yearBuilt": 1908,
+    "location": { "city": "Brooklyn", "region": "NY", "country": "USA", "address": "44 Prospect Pl", "lat": 40.6782, "lng": -73.9442 },
+    "images": ["property-4", "interior-1", "interior-3"],
+    "amenities": ["Original Floors", "Garden", "Roof Deck"],
+    "agentId": "a-003",
+    "createdAt": "2025-07-30"
+  },
+  {
+    "id": "p-005",
+    "slug": "alpine-glass-chalet-aspen",
+    "title": { "en": "Alpine Glass Chalet" },
+    "description": {
+      "en": "Set above the tree line with a southern exposure, this gabled glass chalet pairs ski-in access with year-round mountain serenity."
+    },
+    "price": 14200000,
+    "currency": "USD",
+    "status": "for-sale",
+    "type": "chalet",
+    "bedrooms": 6,
+    "bathrooms": 7,
+    "area": 7800,
+    "yearBuilt": 2020,
+    "location": { "city": "Aspen", "region": "CO", "country": "USA", "address": "12 Snowmass Ridge", "lat": 39.1911, "lng": -106.8175 },
+    "images": ["property-5", "interior-2", "interior-3"],
+    "amenities": ["Ski-in/Ski-out", "Hot Tub", "Sauna", "Fireplace", "Heated Driveway"],
+    "featured": true,
+    "agentId": "a-002",
+    "createdAt": "2025-11-01"
+  },
+  {
+    "id": "p-006",
+    "slug": "garden-residences-lisbon",
+    "title": { "en": "Garden Residences" },
+    "description": {
+      "en": "A two-bedroom apartment in a leafy Lisbon district, with planted balconies, marble baths and a residents-only rooftop pool."
+    },
+    "price": 920000,
+    "currency": "USD",
+    "status": "for-sale",
+    "type": "apartment",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "area": 1240,
+    "yearBuilt": 2023,
+    "location": { "city": "Lisbon", "region": "Lisbon", "country": "Portugal", "address": "R. Garrett 88", "lat": 38.7106, "lng": -9.1393 },
+    "images": ["property-6", "interior-1", "interior-2"],
+    "amenities": ["Rooftop Pool", "Concierge", "Bike Storage", "Balcony"],
+    "agentId": "a-003",
+    "createdAt": "2025-10-19"
+  },
+  {
+    "id": "p-007",
+    "slug": "harbor-loft-rental-soho",
+    "title": { "en": "Harbor Loft" },
+    "description": {
+      "en": "A sun-drenched SoHo loft with cast-iron columns, an open kitchen and views over a quiet cobblestone block."
+    },
+    "price": 9800,
+    "currency": "USD",
+    "status": "for-rent",
+    "type": "apartment",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "area": 1600,
+    "yearBuilt": 1905,
+    "location": { "city": "New York", "region": "NY", "country": "USA", "address": "188 Greene St", "lat": 40.725, "lng": -74.0 },
+    "images": ["interior-1", "interior-2", "property-2"],
+    "amenities": ["Doorman", "Laundry", "Pet Friendly"],
+    "agentId": "a-001",
+    "createdAt": "2025-11-08"
+  },
+  {
+    "id": "p-008",
+    "slug": "coastal-retreat-amalfi",
+    "title": { "en": "Coastal Retreat" },
+    "description": {
+      "en": "A whitewashed cliffside villa with terraced gardens descending toward the Tyrrhenian Sea."
+    },
+    "price": 6750000,
+    "currency": "USD",
+    "status": "for-sale",
+    "type": "villa",
+    "bedrooms": 5,
+    "bathrooms": 5,
+    "area": 5400,
+    "yearBuilt": 2019,
+    "location": { "city": "Positano", "region": "Campania", "country": "Italy", "address": "Via Pasitea 211", "lat": 40.6281, "lng": 14.4847 },
+    "images": ["property-1", "interior-3", "hero-villa"],
+    "amenities": ["Sea View", "Pool", "Olive Grove", "Outdoor Kitchen"],
+    "agentId": "a-002",
+    "createdAt": "2025-06-15"
+  }
+]

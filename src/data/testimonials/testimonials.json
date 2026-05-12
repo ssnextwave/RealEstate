@@ -1,0 +1,26 @@
+[
+  {
+    "id": "t-1",
+    "name": "Sophia Reyes",
+    "role": { "en": "Bought a villa in Malibu" },
+    "quote": { "en": "Maison made the search feel like art direction. Every showing was tailored. We closed in 21 days." },
+    "rating": 5,
+    "avatar": "https://i.pravatar.cc/120?img=5"
+  },
+  {
+    "id": "t-2",
+    "name": "James Whitfield",
+    "role": { "en": "Sold a townhouse in Brooklyn" },
+    "quote": { "en": "Seven offers in the first week. Their photography and positioning are simply on another level." },
+    "rating": 5,
+    "avatar": "https://i.pravatar.cc/120?img=15"
+  },
+  {
+    "id": "t-3",
+    "name": "Nora Lindqvist",
+    "role": { "en": "Relocated from Stockholm" },
+    "quote": { "en": "They handled the cross-border details, lawyers, even the school visits. We just had to choose a home." },
+    "rating": 5,
+    "avatar": "https://i.pravatar.cc/120?img=25"
+  }
+]

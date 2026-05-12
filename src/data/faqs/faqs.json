@@ -1,0 +1,6 @@
+[
+  { "id": "f-1", "q": { "en": "Do you charge buyers a fee?" }, "a": { "en": "No. Our fee is paid by the seller through standard commission, with full transparency at offer." } },
+  { "id": "f-2", "q": { "en": "Can you help with cross-border purchases?" }, "a": { "en": "Yes. We coordinate legal, tax and currency partners in every market we operate in." } },
+  { "id": "f-3", "q": { "en": "How do off-market listings work?" }, "a": { "en": "Roughly a third of our inventory is private. Register and we will share matches you cannot find publicly." } },
+  { "id": "f-4", "q": { "en": "Do you offer rentals?" }, "a": { "en": "We curate a small selection of long-term rentals in major cities. Filter listings by 'For rent'." } }
+]

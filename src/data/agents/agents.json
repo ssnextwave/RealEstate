@@ -1,0 +1,29 @@
+[
+  {
+    "id": "a-001",
+    "name": "Eleanor Vance",
+    "title": { "en": "Senior Property Advisor" },
+    "email": "eleanor@maisonco.example",
+    "phone": "+1 415 555 0144",
+    "avatar": "https://i.pravatar.cc/200?img=47",
+    "bio": { "en": "12 years guiding families and collectors through landmark acquisitions on the West Coast." }
+  },
+  {
+    "id": "a-002",
+    "name": "Marcus Hale",
+    "title": { "en": "Director, Global Properties" },
+    "email": "marcus@maisonco.example",
+    "phone": "+1 212 555 0117",
+    "avatar": "https://i.pravatar.cc/200?img=12",
+    "bio": { "en": "Specializing in trophy assets across New York, Aspen and the Mediterranean coast." }
+  },
+  {
+    "id": "a-003",
+    "name": "Priya Anand",
+    "title": { "en": "Urban Residences Lead" },
+    "email": "priya@maisonco.example",
+    "phone": "+1 718 555 0190",
+    "avatar": "https://i.pravatar.cc/200?img=32",
+    "bio": { "en": "Townhouse and pre-war restoration expert, with a quiet network of off-market listings." }
+  }
+]

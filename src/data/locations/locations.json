@@ -1,0 +1,8 @@
+[
+  { "id": "l-1", "city": "Malibu", "country": "USA", "image": "hero-villa", "count": 24 },
+  { "id": "l-2", "city": "New York", "country": "USA", "image": "property-2", "count": 86 },
+  { "id": "l-3", "city": "Aspen", "country": "USA", "image": "property-5", "count": 18 },
+  { "id": "l-4", "city": "Lisbon", "country": "Portugal", "image": "property-6", "count": 31 },
+  { "id": "l-5", "city": "Positano", "country": "Italy", "image": "property-1", "count": 12 },
+  { "id": "l-6", "city": "Brooklyn", "country": "USA", "image": "property-4", "count": 47 }
+]

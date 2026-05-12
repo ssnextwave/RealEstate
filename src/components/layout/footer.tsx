@@ -24,7 +24,7 @@ export function Footer() {
             <h4 className="text-sm font-medium">Explore</h4>
             <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
               <li><Link to="/properties" className="hover:text-foreground">All properties</Link></li>
-              <li><Link to="/properties" search={{ status: "for-rent" } as any} className="hover:text-foreground">For rent</Link></li>
+              <li><Link to="/properties" className="hover:text-foreground">For rent</Link></li>
               <li><Link to="/blog" className="hover:text-foreground">Journal</Link></li>
               <li><Link to="/about" className="hover:text-foreground">About us</Link></li>
             </ul>

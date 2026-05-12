@@ -14,7 +14,7 @@ import { img } from "@/lib/images";
 import { SITE } from "@/lib/site";
 import type { Property, PropertyType, ListingStatus } from "@/types";
 
-export const Route = createFileRoute("/properties/")({
+export const Route = createFileRoute("/properties")({
   head: () => ({
     meta: [
       { title: `Properties for sale & rent — ${SITE.name}` },

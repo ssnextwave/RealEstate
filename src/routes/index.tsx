@@ -1,26 +1,40 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Hero } from "@/components/homepage/hero";
+import { FeaturedProperties } from "@/components/homepage/featured-properties";
+import { Categories } from "@/components/homepage/categories";
+import { Partners, CtaBanner, Newsletter } from "@/components/homepage/sections";
+import { WhyUs } from "@/components/homepage/why-us";
+import { Stats } from "@/components/homepage/stats";
+import { Testimonials } from "@/components/homepage/testimonials";
+import { LatestBlogs } from "@/components/homepage/latest-blogs";
+import { SITE } from "@/lib/site";
 
 export const Route = createFileRoute("/")({
-  component: Index,
+  head: () => ({
+    meta: [
+      { title: `${SITE.name} — ${SITE.tagline}` },
+      { name: "description", content: SITE.description },
+      { property: "og:title", content: `${SITE.name} — ${SITE.tagline}` },
+      { property: "og:description", content: SITE.description },
+      { rel: "canonical", href: SITE.url },
+    ],
+  }),
+  component: HomePage,
 });
 
-// IMPORTANT: Replace this placeholder. For sites with multiple pages (About, Services, Contact, etc.),
-// create separate route files (about.tsx, services.tsx, contact.tsx) — don't put all pages in this file.
-function PlaceholderIndex() {
+function HomePage() {
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
-    </div>
+    <>
+      <Hero />
+      <Partners />
+      <FeaturedProperties />
+      <Categories />
+      <Stats />
+      <WhyUs />
+      <Testimonials />
+      <LatestBlogs />
+      <CtaBanner />
+      <Newsletter />
+    </>
   );
-}
-
-function Index() {
-  return <PlaceholderIndex />;
 }
